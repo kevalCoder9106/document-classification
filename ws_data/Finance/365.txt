@@ -1,0 +1,7 @@
+This paper focuses adaptations to the discount cash flow (DCF) method when valuing forecasted
+cash flows that are biased measures of expected cash flows. I imagine a simple setting where the
+expected cash flows equal the forecasted cash flows plus an omitted downside. When the
+omitted downside is temporary, the adjustment is to deflate the forecasts and to set the discount
+rate equal to the cost of capital. However, when the downside is permanent, the adjustment is to
+deflate the cash flows and to increase the discount rate so that it includes the cost of capital plus
+the probability of a downside. 

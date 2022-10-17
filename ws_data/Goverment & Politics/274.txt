@@ -1,0 +1,13 @@
+This study examines the effect of mandatory International Financial Reporting Standards
+(IFRS) adoption on financial statement comparability. To isolate the effects of changes in comparability,
+we examine changes to information asymmetry for firms domiciled in the UK. UK domestic standards
+that preceded IFRS adoption are considered very similar to IFRS (Bae et al. 2008); accordingly, we use
+the UK as a setting to isolate changes to the information environment relating to IFRS adoption that more
+likely to reflect changes in comparability versus information quality. If IFRS adoption improves financial
+statement comparability across firms, we predict this should reduce private information benefits.
+Empirical results confirm these predictions. Specifically, abnormal returns to two proxies for private
+information (insider purchases and analyst recommendation upgrades) are reduced following IFRS
+adoption. Similar results are obtained for subsamples that further isolate the reduction in private
+information as attributable to increases in comparability: firms having low amounts of reconciling items
+between UK GAAP and IFRS, and firms having ex ante high quality information environments.
+Together, the results are consistent with mandatory IFRS adoption leading to enhanced comparability. 

@@ -1,0 +1,14 @@
+We examine the effect of mandatory International Financial Reporting
+Standards ('IFRS') adoption on firms' information environment. We find that
+after mandatory IFRS adoption consensus forecast errors decrease for firms
+that mandatorily adopt IFRS relative to forecast errors of other firms. We also
+find decreasing forecast errors for voluntary adopters, but this effect is smaller
+and not robust. Moreover, we show that the magnitude of the forecast errors
+decrease is associated with the firm-specific differences between local GAAP
+and IFRS. Exploiting individual analyst level data and isolating settings where
+investors would benefit more from either increased comparability or higher
+quality information, we document that the improvement in the information
+environment is driven both by information and comparability effects. These
+results are robust to variations in the measurement of information environment
+quality, forecast horizon, sample composition and tests of earnings
+management. 
