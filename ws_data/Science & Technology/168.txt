@@ -1,0 +1,38 @@
+How often a person takes daytime naps, if at all, is partly regulated by their genes, according to new research led by investigators at Harvard-affiliated Massachusetts General Hospital (MGH) and published in Nature Communications. In this study, the largest of its kind ever conducted, the MGH team collaborated with colleagues at the University of Murcia in Spain and several other institutions to identify dozens of gene regions that govern the tendency to take naps during the day. They also uncovered preliminary evidence linking napping habits to cardiometabolic health. “Napping is somewhat controversial,” says Hassan Saeed Dashti of the MGH Center for Genomic Medicine, co-lead author of the report with Iyas Daghlas, a medical student at Harvard Medical School (HMS). Dashti notes that some countries where daytime naps have long been part of the culture (such as Spain) now discourage the habit. Meanwhile, some companies in the United States now promote napping as a way to boost productivity. “It was important to try to disentangle the biological pathways that contribute to why we nap,” says Dashti. Previously, co-senior author Richa Saxena, principal investigator at the Saxena Lab at MGH, and her colleagues used massive databases of genetic and lifestyle information to study other aspects of sleep. Notably, the team has identified genes associated with sleep duration, insomnia, and the tendency to be an early riser or “night owl.” To gain a better understanding of the genetics of napping, Saxena’s team and co-senior author Marta Garaulet of the department of physiology at the University of Murcia, performed a genome-wide association study (GWAS), which involves rapid scanning of complete sets of DNA, or genomes, of a large number of people. The goal of a GWAS is to identify genetic variations that are associated with a specific disease or, in this case, habit. For this study, the MGH researchers and their colleagues used data from the UK Biobank, which includes genetic information from 452,633 people. All participants were asked whether they nap during the day “never/rarely,” “sometimes” or “usually.” The GWAS identified 123 regions in the human genome that are associated with daytime napping. A subset of participants wore activity monitors called accelerometers, which provide data about daytime sedentary behavior, which can be an indicator of napping. This objective data indicated that the self-reports about napping were accurate. “That gave an extra layer of confidence that what we found is real and not an artifact,” says Dashti. Several other features of the study bolster its results. For example, the researchers independently replicated their findings in an analysis of the genomes of 541,333 people collected by 23andMe, the consumer genetic-testing company. Also, a significant number of the genes near or at regions identified by the GWAS are already known to play a role in sleep. One example is KSR2, a gene that the MGH team and collaborators had previously found plays a role in sleep regulation. Digging deeper into the data, the team identified at least three potential mechanisms that promote napping: “This tells us that daytime napping is biologically driven and not just an environmental or behavioral choice,” says Dashti.
+
+Related
+
+
+
+ 
+ 
+
+Sleep test predicts dementia in older adults
+
+Measurements of brain activity during sleep reveal signs of accelerated brain aging 
+ 
+ 
+
+
+
+ 
+ 
+
+Sleep, heart disease link leads from brain to marrow
+
+MGH research finds chemical pathway from lack of shut-eye to atherosclerosis 
+ 
+ 
+
+
+
+ 
+ 
+
+Study identifies gene regions associated with sleep duration
+
+Both too much and too little shut-eye can be associated with health problems 
+ 
+ 
+
+ Some of these subtypes were linked to cardiometabolic health concerns, such as large waist circumference and elevated blood pressure, though more research on those associations is needed. “Future work may help to develop personalized recommendations for siesta,” says Garaulet. Furthermore, several gene variants linked to napping were already associated with signaling by a neuropeptide called orexin, which plays a role in wakefulness. “This pathway is known to be involved in rare sleep disorders like narcolepsy, but our findings show that smaller perturbations in the pathway can explain why some people nap more than others,” says Daghlas. Saxena is the Phyllis and Jerome Lyle Rappaport MGH Research Scholar at the Center for Genomic Medicine and an associate professor of anesthesia at HMS. The work was supported by the National Institute of Diabetes and Digestive and Kidney Diseases, the National Heart, Lung, and Blood Institute, MGH Research Scholar Fund, Spanish Government of Investigation, Development and Innovation, the Autonomous Community of the Region of Murcia through the Seneca Foundation, Academy of Finland, Instrumentarium Science Foundation, Yrjö Jahnsson Foundation, and Medical Research Council. 

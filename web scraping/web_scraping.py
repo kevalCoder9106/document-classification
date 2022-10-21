@@ -51,6 +51,10 @@ class WebScrap:
     def get_elements_content(self, element, element_class):
         return self.parsed_content.find_all(element, {"class": element_class})
 
+    def get_c_element_content(self, element, element_class, sub_element):
+        el = self.parsed_content.find_all(element, {"class": element_class})
+        return el.findChildren(sub_element)
+
 def get_articles_links(main_page_url, page_url, total_page_num):
     total_links = 0
     _ws = WebScrap()
@@ -109,6 +113,41 @@ def store_articles_content(path, total_links):
                     file.write(text)
                 link_count += 1
 
+def get_articles_links_specific_1(page_url, element, element_class,limit):
+    _ws = WebScrap()
+    
+    total_links = 0
+    i = 1
+    while True:
+        url = page_url + str(i) + '/'
+        try:
+            _ws.url = url
+            _ws.connect()
+            _ws.parse_content()
+        except:
+            print("[-] Page at index ", i, ", is not available.")
+            if i > limit:
+                break
+            else:
+                continue
+
+        print("[+] Link: ", url, end='\r')
+    
+        el = _ws.get_elements_content(element, element_class)
+        for e in el:
+            link = e.find('a').get('href')
+            with open('links.txt', 'a', errors='ignore') as f:
+                f.write(link + '\n')
+            total_links += 1
+        i += 1
+
+        if i > limit:
+            break
+        else:
+            continue
+    
+    return total_links
+
 """
     clear()
         clear outs the link folder
@@ -118,8 +157,8 @@ def clear():
         f.write("")
 
 if __name__ == '__main__':
-    category = 'Energy'
-    page_url = 'https://hbswk.hbs.edu/Pages/browse.aspx?HBSTopic=Energy&page='
+    category = 'Science & Technology'
+    page_url = 'https://hbswk.hbs.edu/Pages/browse.aspx?HBSIndustry=Food%20%26%20Beverage&page='
     
     path = '../ws_data/' + category
     if os.path.exists(path) == False:
@@ -129,7 +168,15 @@ if __name__ == '__main__':
     main_page_url = 'https://hbswk.hbs.edu'
     
     clear()
+
+    # For harvard buisness school
+    # os.system('clear')
+    # total_links = get_articles_links(main_page_url, page_url, total_page_num)
+
+    # For harvard school of arts and science (specific)
     os.system('clear')
-    total_links = get_articles_links(main_page_url, page_url, total_page_num)
+    total_links = get_articles_links_specific_1('https://news.harvard.edu/gazette/section/science-technology/page/', 'h2', 'tz-article-image__title', 30)
+
+    # Storing articles
     os.system('clear')
     store_articles_content(path, total_links)
